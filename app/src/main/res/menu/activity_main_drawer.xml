@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/ptto"
+        android:visible="false"
+        android:icon="@mipmap/examen_simulacro_ios"
+        android:title="Examen Simulacro" />
+    <!--<item
+        android:id="@+id/escuelas"
+        android:icon="@drawable/quimica"
+        android:title="Mi puntaje obtenido" />-->
+
+    <item
+        android:id="@+id/grafica"
+        android:icon="@mipmap/resultados_historicos_ios"
+        android:title="Archived Score" />
+    <item
+        android:id="@+id/materia"
+        android:icon="@mipmap/resultados_materia_ios"
+        android:title="Quiz Score" />
+    <!--    <item
+            android:id="@+id/movimientosfrec"
+            android:icon="@drawable/sincronizar"
+            android:title="Resultados por Materia" />-->
+    <item
+        android:id="@+id/examendetalle"
+        android:icon="@mipmap/resultado_es_ios"
+        android:title="Test review" />
+    <item
+        android:id="@+id/diagnostico"
+        android:icon="@mipmap/mi_diagnostico_ios"
+        android:visible="false"
+        android:title="Test answers" />
+    <item
+        android:id="@+id/repcate"
+        android:icon="@mipmap/reportar_problema_ios"
+        android:title="Report a problem" />
+</menu>

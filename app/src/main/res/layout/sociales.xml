@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resumen_sociales"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+    <Button
+        android:id="@+id/espanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/espanol"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Español \n"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/razverbal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/razonamientoverbal"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Literatura \n"
+        android:layout_alignBaseline="@+id/espanol"
+        android:layout_alignBottom="@+id/espanol"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/histouniversal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:drawableTop="@mipmap/historiafinal"
+        android:text="Historia \nuniversal"
+        android:layout_alignBaseline="@+id/razverbal"
+        android:layout_alignBottom="@+id/razverbal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/historiamexico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:drawableTop="@mipmap/historiademexico"
+        android:text="Historia \nde Mexico"
+        android:layout_alignBaseline="@+id/geouniversal"
+        android:layout_alignBottom="@+id/geouniversal"
+        android:layout_alignLeft="@+id/razverbal"
+        android:layout_alignStart="@+id/razverbal" />
+
+    <Button
+        android:id="@+id/geouniversal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/geografiauniversal"
+        android:text="Geografía \n"
+        android:textAllCaps="false"
+        android:textColor="@color/blackboard"
+        android:background="@color/white"
+        android:layout_below="@+id/espanol"
+        android:layout_alignLeft="@+id/espanol"
+        android:layout_alignStart="@+id/espanol"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/geomexico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/geografiademexico"
+        android:text="Geografía \nde Mexico"
+        android:textAllCaps="false"
+        android:textColor="@color/blackboard"
+        android:visibility="invisible"
+        android:background="@color/white"
+        android:layout_alignBaseline="@+id/geouniversal"
+        android:layout_alignBottom="@+id/geouniversal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+ <ImageView
+     android:id="@+id/imageEscuelasMain"
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:background="@mipmap/quimica" />
+ <TextView
+     android:padding="3dip"
+     android:textColor="@color/morado"
+     android:textSize="15dp"
+         android:textStyle="bold"
+         android:id="@+id/company"
+         android:text="CoderzHeaven"
+     android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_toRightOf="@+id/imageEscuelasMain" />
+ <!--      <TextView
+         android:layout_toRightOf="@+id/image"
+         android:padding="2dip"
+         android:layout_marginLeft="5dip"
+         android:id="@+id/sub"
+         android:layout_below="@+id/company"
+         android:text="Heaven of all working codes"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/> -->
+
+</RelativeLayout>

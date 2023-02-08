@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resumen_razonamiento"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+
+    <Button
+        android:id="@+id/civismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/civismofinal"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Filosofía \n"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/fisica"
+        android:layout_alignEnd="@+id/fisica" />
+
+    <Button
+        android:id="@+id/razmate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/razonamientomatematicofinal"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Razonamiento \nmatemático"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/fisica"
+        android:layout_alignBottom="@+id/fisica"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/matema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/matematicasdos"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Matemáticas \n"
+        android:layout_alignBaseline="@+id/fisica"
+        android:layout_alignBottom="@+id/fisica"
+        android:layout_alignLeft="@+id/biologia"
+        android:layout_alignStart="@+id/biologia" />
+
+    <Button
+        android:id="@+id/fisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableTop="@mipmap/fisicafinal"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Física \n"
+        android:layout_below="@+id/civismo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/quimica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/quimica"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Química \n"
+        android:layout_alignBaseline="@+id/civismo"
+        android:layout_alignBottom="@+id/civismo"
+        android:layout_alignLeft="@+id/razmate"
+        android:layout_alignStart="@+id/razmate" />
+
+    <Button
+        android:id="@+id/biologia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/biologia"
+        android:background="@color/white"
+        android:textColor="@color/blackboard"
+        android:textAllCaps="false"
+        android:text="Biología \n"
+        android:layout_alignBaseline="@+id/quimica"
+        android:layout_alignBottom="@+id/quimica"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

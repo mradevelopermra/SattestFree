@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listadodetalle"
+    android:background="@color/white"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/pregRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        android:ems="10"
+        android:gravity="clip_horizontal"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:text="Pregunta"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/respUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imagenPregunta"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="clip_horizontal"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:text="Respuesta"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/correctPreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imaRespUser"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="clip_horizontal"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:text="Correcta"
+        android:textColor="@color/blackboard" />
+
+    <EditText
+        android:id="@+id/tooltipExamen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imagRespCorrecta"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="clip_horizontal"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:text="Tooltip"
+        android:textColor="@color/morado" />
+
+    <TextView
+        android:id="@+id/txtleyendabuenamala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageTooltipPreg"
+        android:layout_toEndOf="@+id/imageView8"
+        android:layout_toRightOf="@+id/imageView8"
+        android:text="TextView"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:id="@+id/imagenPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pregRest"
+        android:clickable="true"
+        app:srcCompat="@mipmap/geografiademexico" />
+
+    <ImageView
+        android:id="@+id/imageTooltipPreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/geografiademexico"
+        android:layout_below="@+id/tooltipExamen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imaRespUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/respUser"
+        app:srcCompat="@mipmap/geografiademexico"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imagRespCorrecta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/correctPreg"
+        app:srcCompat="@mipmap/geografiademexico" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtleyendabuenamala"
+        app:srcCompat="@android:drawable/ic_delete" />
+</RelativeLayout>

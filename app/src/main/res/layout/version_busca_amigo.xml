@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circular_ivPlayer_One"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/txtPlayerOne"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/usuario_foto_ahorcado"
+        app:civ_border_color="@color/azulUnam"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/dorado"
+        app:civ_shadow_radius="10dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:text="@string/instruccionesInvader"
+        android:textColor="@color/colormonto"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/solicitudAhorcado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colormonto"
+        android:text="Solicitud juego de ahorcado"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/solicitudGato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colormonto"
+        android:text="Solicitud juego de gato"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/closepago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colormonto"
+        android:text="Close"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/yalocompre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/closepago"
+        android:background="@color/colormonto"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:text="¡Ya lo compré!"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>

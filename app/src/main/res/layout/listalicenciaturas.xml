@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagenMateria"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/biologia" />
+
+    <TextView
+        android:id="@+id/txtlicencaituras"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textColor="@color/morado"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imagenMateria"
+        android:layout_toEndOf="@+id/imagenMateria" />
+
+    <TextView
+        android:id="@+id/txtresultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colormonto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtlicencaituras"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imagenMateria"
+        android:layout_toEndOf="@+id/imagenMateria" />
+
+    <TextView
+        android:id="@+id/txtresultadoobtenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtresultados"
+        android:layout_toRightOf="@+id/imagenMateria"
+        android:text="TextView"
+        android:textColor="@color/colorletra"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

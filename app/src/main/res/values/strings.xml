@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Sat test free</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="EseleccionaImagen">Selecciona una imagen</string>
+    <string name="EcambioImage">Cambio de Imagen</string>
+    <string name="EtuNombre">Escribe Tu Nombre</string>
+    <string name="timerVal">00:00:00</string>
+    <string name="ventaOk">¡Compra exitosa, ya puedes utilizar la aplicación!</string>
+    <string name="ventaNo">Los datos no se guardaron, por favor contacta con el desarrollador</string>
+    <string name="verificandoUsuario">Virificando usuario</string>
+    <string name="usuarioGuardar">Guardando usuario</string>
+    <string name="usuarioActualizar">Actualizando usuario</string>
+    <string name="usuarioActualizarNo">No se actualizó</string>
+    <string name="usuarioNoExiste">El usuario no existe, favor de adquirir la licencia</string>
+    <string name="nohayred">No cuentas con Internet </string>
+    <string name="infoSimulacro">Each passage below is accompanied by a number of questions. For some questions, you
+            will consider how the passage might be revised to improve the expression of ideas. For
+            other questions, you will consider how the passage might be edited to correct errors in
+            sentence structure, usage, or punctuation. A passage or a question may be accompanied by
+            one or more graphics (such as a table or graph) that you will consider as you make revising
+            and editing decisions.</string>
+    <string name="infoExamen">Para la versión PREMIUM cuentas con 120 preguntas que se obtienen de un total de 1000 preguntas, mismas que generan diferentes tipos de exámenes, sin perder la estructura principal, simplemente se cambian las preguntas para que tengas un mayor margen de práctica y así te encuentres mejor preparado para tu examen.</string>
+    <string name="instruccionesInvader">Destroy the best answer from the choices provided.</string>
+    <string name="instruccionesCrucigrama">Choose the best answer from the choices provided.</string>
+    <string name="instruccionesAhorcado">Choose the best answer from the choices provided.</string>
+    <string name="instruccionesModulo">Choose the best answer from the choices provided </string>
+    <string name="problemadescriptivo">¡Debes agregar un problema descriptivo, para poderte ayudar!</string>
+    <string name="mailvalida">¡Debes agregar una cuenta de mail valida!</string>
+    <string name="noresultadoshistoricos">No scores!</string>
+    <string name="masPreguntasIlimitadas">You no longer have more lives, for today, click on the ad banner for an extra life! To get unlimited lives download the PRO version. </string>
+    <string name="masPreguntasIlimitadasExamen">Advertising helps us improve and add more questions, so to continue with the exam, please click on the advertising banner below the buttons, \n\nTo avoid advertising, download the PRO version.\ n\nWithout your help and understanding we cannot continue. </string>
+
+    <string name="noresultadoshistoricosmateria">You do not have results for this subject!</string>
+    <string name="compra">Con esta compra tienes acceso a todas las preguntas y juegos, para una mejor práctica, asi como preguntas aleatorias. </string>
+    <string name="compraCancelada">¡Haz cancelado la compra anterior, favor de adquirirla nuevamente, con un mail diferente! </string>
+    <string name="masPreguntas">For more questions you need download pro version. </string>
+    <string name="masPreguntasVideo">Para más de 10 preguntas, se mostrara un video cada 5 preguntas, después de la pregunta 10, esto nos ayuda a mejorar la aplicación. \n\nSin tu ayuda y comprensión no podemos continuar.</string>
+    <string name="invierte">INVIERTE EN TU EDUCACIÓN </string>
+    <string name="unExamen">Para la versión Free, solo admite un examen simulacro, para más exámenes descarga la versión PREMIUM.</string>
+    <string name="tresMaterias">Para la versión Free, solo se permite estudiar por materia en 6 ocasiones, para estudiar sin restricciones descarga la versión PREMIUM.</string>
+    <string name="cerrarExamen">Si cancelas el video, se perderá el avance de tu examen.</string>
+    <string name="closeExamen">Close</string>
+    <string name="noGracias">Versión Premium</string>
+    <string name="conexion">Para poder mostrar las preguntas requieres conexión a internet, por favor activa tu conexión y continua o descarga la versión sin internet</string>
+    <string name="internet">Internet.</string>
+    <string name="si">Continuar</string>
+    <string name="no">No.</string>
+    <string name="no_text"> </string>
+    <string name="rcl">RCL</string>
+    <string name="sto">STO</string>
+    <string name="m_minus">M-</string>
+    <string name="shift">SHIFT</string>
+    <string name="rad">RAD</string>
+    <string name="abs">ABS</string>
+    <string name="mr">MR</string>
+    <string name="ms">MS</string>
+    <string name="m_plus">M+</string>
+    <string name="inverse_sin">sin1</string>
+    <string name="inverse_cos">cos1</string>
+    <string name="inverse_tan">tan1</string>
+    <string name="expo">ex</string>
+    <string name="ten_power">10x</string>
+    <string name="rnd">rnd</string>
+    <string name="sin_sign">sin</string>
+    <string name="cos_sign">cos</string>
+    <string name="tan_sign">tan</string>
+    <string name="natural_log">ln</string>
+    <string name="log">log</string>
+    <string name="cube_root">3?</string>
+    <string name="cube">x3</string>
+    <string name="one_over_x">1/x</string>
+    <string name="x_power_y">Yx</string>
+    <string name="square_root">/</string>
+    <string name="x_square">x^2</string>
+    <string name="percent">%</string>
+    <string name="open_bracket">(</string>
+    <string name="close_bracket">)</string>
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nine_button">9</string>
+    <string name="single_delete">del</string>
+    <string name="clear">AC</string>
+    <string name="factorial">n!</string>
+    <string name="combination">c(n,r)</string>
+    <string name="permutation">p(n,r)</string>
+    <string name="rate">Rate</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
+    <string name="pi">ii</string>
+    <string name="e">e</string>
+    <string name="comma">,</string>
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="zero_button">0</string>
+    <string name="dot">.</string>
+    <string name="exp">exp</string>
+    <string name="ans">Ans</string>
+    <string name="equal_sign">=</string>
+    <string name="x_value">x</string>
+    <string name="plus_minus">+/-</string>
+    <string name="plot">Plot</string>
+    <string name="asterisk">*</string>
+    <string name="close">Close</string>
+    <string name="masVideos">Para ver todas las clases requieres obtener la versión PREMIUM. </string>
+    <string name="preguntasVideoExamen">Para el examen simulacro, se mostrara un video cada 15 preguntas, esto nos ayuda a mejorar la aplicación. \n\nSin tu ayuda y comprensión no podemos continuar.</string>
+</resources>
